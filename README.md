@@ -22,6 +22,9 @@ Estruturais
 - Adapter
 > O padrão de design Adapter (Adaptador) é um padrão estrutural que permite que objetos com interfaces incompatíveis possam trabalhar juntos. Ele converte a interface de uma classe em outra interface que o cliente espera, permitindo que classes com interfaces diferentes possam colaborar de forma transparente.
 
+- Decorator
+> O padrão de design Decorator (Decorador) é um padrão estrutural que permite adicionar funcionalidades extras a um objeto de forma dinâmica, sem alterar sua estrutura básica. O Decorator fornece uma alternativa flexível à criação de subclasses para estender as funcionalidades de um objeto.
+
 Comportamentais
 -----------
 - Strategy
