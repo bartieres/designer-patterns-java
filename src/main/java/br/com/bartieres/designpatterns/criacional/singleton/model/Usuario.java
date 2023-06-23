@@ -22,7 +22,7 @@ public class Usuario {
         this.id = id;
         this.nome = nome;
         this.sobrenome = sobrenome;
-        this.dataNascimento =dataNascimento;
+        this.dataNascimento = dataNascimento;
     }
 
     public static Usuario getInstance() {
@@ -38,11 +38,11 @@ public class Usuario {
 
     @Override
     public String toString() {
-        return "Usuario{" +
-                "id=" + id + ", " +
-                "nome='" + nome + '\'' +
-                ", sobrenome='" + sobrenome + '\'' +
-                ", dataNascimento=" + dataNascimento +
-                '}';
+        return "Usuario{"
+                + "id=" + id + ", "
+                + "nome='" + nome + '\''
+                + ", sobrenome='" + sobrenome + '\''
+                + ", dataNascimento=" + dataNascimento
+                + '}';
     }
 }

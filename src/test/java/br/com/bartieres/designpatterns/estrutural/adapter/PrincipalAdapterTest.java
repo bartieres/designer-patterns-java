@@ -20,7 +20,7 @@ public class PrincipalAdapterTest {
         PessoaFisica pessoaFisica = new PessoaFisica();
 
         Exception exception = Assertions.assertThrows(IllegalArgumentException.class,
-                () -> new PrincipalAdapter().adapter(pessoaFisica));
+            () -> new PrincipalAdapter().adapter(pessoaFisica));
 
         String expectedMessage = "CPF/CNPJ não informado.";
         String actualMessage = exception.getMessage();
@@ -41,7 +41,7 @@ public class PrincipalAdapterTest {
         PessoaJuridica pessoaJuridica = new PessoaJuridica();
 
         Exception exception = Assertions.assertThrows(IllegalArgumentException.class,
-                () -> new PrincipalAdapter().adapter(pessoaJuridica));
+            () -> new PrincipalAdapter().adapter(pessoaJuridica));
 
         String expectedMessage = "CPF/CNPJ não informado.";
         String actualMessage = exception.getMessage();

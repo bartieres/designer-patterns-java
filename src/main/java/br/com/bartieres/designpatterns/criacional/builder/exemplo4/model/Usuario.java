@@ -16,15 +16,15 @@ public class Usuario {
     public Usuario(String nome, String sobrenome, LocalDate dataNascimento) {
         this.nome = nome;
         this.sobrenome = sobrenome;
-        this.dataNascimento =dataNascimento;
+        this.dataNascimento = dataNascimento;
     }
 
     @Override
     public String toString() {
-        return "Usuario{" +
-                "nome='" + nome + '\'' +
-                ", sobrenome='" + sobrenome + '\'' +
-                ", dataNascimento=" + dataNascimento +
-                '}';
+        return "Usuario{"
+                + "nome='" + nome + '\''
+                + ", sobrenome='" + sobrenome + '\''
+                + ", dataNascimento=" + dataNascimento
+                + '}';
     }
 }

@@ -14,11 +14,11 @@ public class Connection {
 
     @Override
     public String toString() {
-        return "Connection{" +
-                "databaseName='" + databaseName + '\'' +
-                ", url='" + url + '\'' +
-                ", user='" + user + '\'' +
-                ", password='" + password + '\'' +
-                '}';
+        return "Connection{"
+                + "databaseName='" + databaseName + '\''
+                + ", url='" + url + '\''
+                + ", user='" + user + '\''
+                + ", password='" + password + '\''
+                + '}';
     }
 }

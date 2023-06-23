@@ -1,7 +1,6 @@
 package br.com.bartieres.designpatterns.criacional.factory.conexoes;
 
 import br.com.bartieres.designpatterns.criacional.factory.enums.TipoConexao;
-import br.com.bartieres.designpatterns.criacional.factory.model.Connection;
 
 public class ConexaoFactory {
 

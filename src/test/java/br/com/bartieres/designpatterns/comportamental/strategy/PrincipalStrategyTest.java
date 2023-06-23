@@ -21,7 +21,7 @@ public class PrincipalStrategyTest {
         Usuario usuario = new Usuario("1236547");
 
         Exception exception = Assertions.assertThrows(IllegalArgumentException.class,
-                () -> new PrincipalStrategy().strategy(usuario, new PessoaFisicaValidador()));
+            () -> new PrincipalStrategy().strategy(usuario, new PessoaFisicaValidador()));
 
         String expectedMessage = "CPF inválido.";
         String actualMessage = exception.getMessage();
@@ -42,7 +42,7 @@ public class PrincipalStrategyTest {
         Usuario usuario = new Usuario("123654789012");
 
         Exception exception = Assertions.assertThrows(IllegalArgumentException.class,
-                () -> new PrincipalStrategy().strategy(usuario, new PessoaJuridicaValidador()));
+            () -> new PrincipalStrategy().strategy(usuario, new PessoaJuridicaValidador()));
 
         String expectedMessage = "CNPJ inválido.";
         String actualMessage = exception.getMessage();
